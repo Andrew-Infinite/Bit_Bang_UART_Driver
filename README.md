@@ -11,7 +11,8 @@ On Raspberry Pi:
 sudo apt-get update
 sudo apt-get install build-essential raspberrypi-kernel-headers
 
-
+git clone git@github.com:Andrew-Infinite/Bit_Bang_UART_Driver.git
+cd path/to/src
 make
 sudo insmod main.ko TX_PIN=YOUR_GPIO_NUMBER
 sudo chmod 666 /dev/BitBangDevice
