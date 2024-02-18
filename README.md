@@ -6,7 +6,7 @@ This project contains a kernel module named `main.ko`.
 
 To build the kernel module, run:
 
-### On Raspberry Pi
+On Raspberry Pi:
 ```bash
 make
 sudo insmod main.ko TX_PIN=YOUR_GPIO_NUMBER
@@ -15,5 +15,5 @@ echo "This is test" > /dev/BitBangDevice
 sudo rmmod main
 ```
 
-### On PC with UART TTL
+On PC with UART TTL:
 Use minicom or any serial analyzer to connect to your serial com
