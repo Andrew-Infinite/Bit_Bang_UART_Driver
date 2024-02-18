@@ -16,4 +16,6 @@ sudo rmmod main
 ```
 
 On PC with UART TTL:
+```
 Use minicom or any serial analyzer to connect to your serial com
+```
