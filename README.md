@@ -8,6 +8,10 @@ To build the kernel module, run:
 
 On Raspberry Pi:
 ```bash
+sudo apt-get update
+sudo apt-get install build-essential raspberrypi-kernel-headers
+
+
 make
 sudo insmod main.ko TX_PIN=YOUR_GPIO_NUMBER
 sudo chmod 666 /dev/BitBangDevice
